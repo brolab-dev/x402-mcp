@@ -1,0 +1,29 @@
+{
+  "name": "x402-cronos-mcp",
+  "version": "1.0.0",
+  "description": "MCP-triggered x402 Auto-Settlement Engine - Policy-based settlement engine where Crypto.com MCP market data triggers x402 settlement intents on Cronos EVM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "x402",
+    "cronos",
+    "mcp",
+    "crypto.com",
+    "settlement",
+    "eip-3009",
+    "blockchain"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.9.0",
+    "express": "^4.18.2",
+    "ws": "^8.14.2"
+  }
+}
+
